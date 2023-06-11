@@ -1,11 +1,14 @@
 import Button from '@/components/Button'
+import IconButton from '@/components/IconButton'
 import Image from 'next/image'
 import {FaPlus} from 'react-icons/fa'
 
 export default function Home() {
   return (
     <main>
-      <Button foreImage={<FaPlus size={14} />}>Send</Button>
+      <IconButton>
+        <FaPlus size={15} />
+      </IconButton>
     </main>
   )
 }
