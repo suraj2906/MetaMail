@@ -6,7 +6,7 @@ export default function Chip(props){
         "info": "blue"
     }
     return (
-        <div className={'bg-danger px-2 rounded-full max-h-4 text-xs text-center self-center'}>
+        <div className={'bg-danger px-2 flex-none rounded-full max-h-4 text-xs text-center self-center'}>
             {props.children}
         </div>
     )
