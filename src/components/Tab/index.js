@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 
 export default function Tab(props) {
     return (
@@ -10,9 +10,9 @@ export default function Tab(props) {
             </a>
         </li>
         <li className="mr-2">
-            <a href="#" className="inline-flex p-4 text-blue-600 border-b-2 border-blue rounded-t-lg active text-blue border-blue group" aria-current="page">
+            <Link href={"/dashboard"} ><div className="inline-flex p-4 text-blue-600 border-b-2 border-blue rounded-t-lg active text-blue border-blue group" aria-current="page">
                 <svg aria-hidden="true" className="w-5 h-5 mr-2 text-blue dark:text-blue" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>Dashboard
-            </a>
+            </div></Link>
         </li>
         <li className="mr-2">
             <a href="#" className="inline-flex p-4 hover:border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
