@@ -4,7 +4,7 @@ import IconButton from '@/components/IconButton'
 import InboxCard from '@/components/InboxCard'
 import InputField from '@/components/InputField'
 import NavItem from '@/components/NavItem'
-import Tab from '@/components/Tab'
+import Tab from '@/components/Navbar'
 import Image from 'next/image'
 import {FaPlus, FaSearch, FaInbox, FaStar, FaExclamationCircle, FaTrash} from 'react-icons/fa'
 
@@ -14,7 +14,6 @@ function page() {
 
   return (
     <>
-    <Tab/>
     <main className='mx-[2%] my-[2%]'>
     <div className='flex flex-row mt-[16px]'>
         <div className='w-[20%]'>
