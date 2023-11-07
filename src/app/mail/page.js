@@ -1,9 +1,7 @@
 import React from 'react'
 import Button from '@/components/Button'
 import IconButton from '@/components/IconButton'
-import InboxCard from '@/components/InboxCard'
 import InputField from '@/components/InputField'
-import Tab from '@/components/Tab'
 import Attachment from '@/components/Attachment'
 import Image from 'next/image'
 import {FaPlus, FaSearch, FaInbox, FaStar, FaExclamationCircle, FaTrash, FaRegClock, FaRegFolder, FaReply, FaReplyAll, FaPaperclip} from 'react-icons/fa'
@@ -16,7 +14,6 @@ function page() {
 
   return (
     <>
-    <Tab/>
     <main className='mx-[2%] my-[2%] font-worksans'>
     <div className='flex flex-row mt-[16px]'>
         <div className='pr-[2%] border-r-[0.5px] border-[#3D3D3D] h-screen hidden md:block'>

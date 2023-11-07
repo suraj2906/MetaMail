@@ -11,7 +11,7 @@
 }
 input[type="text"], input[type="text"]:focus {
   border:none;
-  background-image:none;
+  background-image:none;  
   background-color:transparent;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
