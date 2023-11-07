@@ -55,7 +55,7 @@ function page() {
             <div className='mb-[2vh] hidden md:block'>
                 <InputField/>
             </div>
-            <div className=''>
+            <div className='w-full'>
                 <div className='flex flex-row mt-[3vh] border-b-[0.5px] border-[#3D3D3D] py-[2vh]'>
                     <Image className='rounded-full' width={38} height={38} src={'https://www.sony.eu/alphauniverse/assets/resized/2020/10/Julien-Mauve-profile_square_291x291.jpg'}/>
                     <div className='justify-center flex flex-col mx-[1vw]'>
@@ -83,7 +83,7 @@ function page() {
                 
                 <div className='my-[4vh]'>
                     <p><span className='font-semibold text-[20px]'>Attachments</span><span className='text-[16px] text-purple underline ml-[2vw]'>Download All</span></p>
-                    <div className='flex flex-row space-x-[16px] mt-[10px]'>
+                    <div className='flex flex-row flex-wrap gap-2'>
                        <Attachment filename = 'Official Document' filesize='2.4MB'/>
                        <Attachment filename = 'Official Document' filesize='2.4MB'/>
                        <Attachment filename = 'Official Document' filesize='2.4MB'/>
