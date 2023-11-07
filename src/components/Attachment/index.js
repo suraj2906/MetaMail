@@ -8,7 +8,7 @@ export default function IconButton(props){
                     <FaPaperclip className='text-[20px] my-auto'/>
                 </div>
                 <div className='ml-[1vw] mr-[0.5vw]'>
-                    <p className='text-[11px]'>{props.filename}</p>
+                    <p className='text-[11px] truncate'>{props.filename}</p>
                     <p className='text-[10px]'>{props.filesize}</p>
                 </div>
             </div>

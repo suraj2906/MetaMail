@@ -19,12 +19,12 @@ function page() {
     <Tab/>
     <main className='mx-[2%] my-[2%] font-worksans'>
     <div className='flex flex-row mt-[16px]'>
-        <div className='w-[12%] border-r-[0.5px] border-[#3D3D3D] h-screen'>
+        <div className='pr-[2%] border-r-[0.5px] border-[#3D3D3D] h-screen hidden md:block'>
             <div className='px-[10%] my-[10%] ml-[-10%]'>
             <Button>
                 
                 <FaPlus className='text-[15px]'/>
-                <span className='text-[15px] ml-[8px] my-auto'>Compose</span>
+                <span className='text-[15px] ml-[10px] my-auto'>Compose</span>
             </Button>
             </div>
             <IconButton>
@@ -47,7 +47,7 @@ function page() {
         </div>
             
         <div className='pl-[2%] w-[100%]'>
-            <div>
+            <div className='hidden md:block'>
                 <span className='font-worksans font-semibold text-[24px]'>Inbox</span>
                 <div className='flex flex-row space-x-4 my-[1.5vh]'>
                     <span className='font-worksans text-[14px]'>500 messages</span>
@@ -55,10 +55,10 @@ function page() {
                     <span className='font-worksans text-[14px]'>6 unread</span>
                 </div>
             </div>
-            <div className='mb-[2vh]'>
+            <div className='mb-[2vh] hidden md:block'>
                 <InputField/>
             </div>
-            <div>
+            <div className=''>
                 <div className='flex flex-row mt-[3vh] border-b-[0.5px] border-[#3D3D3D] py-[2vh]'>
                     <Image className='rounded-full' width={38} height={38} src={'https://www.sony.eu/alphauniverse/assets/resized/2020/10/Julien-Mauve-profile_square_291x291.jpg'}/>
                     <div className='justify-center flex flex-col mx-[1vw]'>
@@ -67,7 +67,7 @@ function page() {
                     </div>
                     <p className='justify-center flex flex-col ml-auto text-[11px]'>24th Dec, 2022, 09:48PM</p>
                 </div>
-                    <div className='flex flex-row border-b-[0.5px] border-[#3D3D3D] space-x-[4vw] py-[3vh] pl-[4vw]'>
+                <div className='flex flex-row border-b-[0.5px] border-[#3D3D3D] space-x-[4vw] py-[3vh] pl-[4vw]'>
                     <FaRegClock className='text-[20px] text-[#888888]'/>
                     <FaRegFolder className='text-[20px] text-[#888888]'/>
                     <AiOutlineInfoCircle className='text-[20px] text-[#888888]'/>
@@ -77,8 +77,8 @@ function page() {
                     <FaReply className='text-[20px] text-[#888888]'/>
                 </div>
                 <div className='ml-[3%] mt-[2%]'>
-                    <p className='text-[24px] font-medium'>Regarding the new recruits</p>
-                    <p className='text-[12px] mt-[3vh]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in dapibus magna. Nulla non purus fringilla, dapibus dui et, hendrerit sapien. Pellentesque vulputate tincidunt quam feugiat convallis. Aliquam auctor suscipit ipsum sed sollicitudin. Vivamus molestie dignissim erat ut molestie. Proin sed nulla erat. Nam at viverra risus.
+                    <p className='text-[30px] md:24px  font-medium'>Regarding the new recruits</p>
+                    <p className='md:text-[12px] text-[18px] mt-[3vh]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in dapibus magna. Nulla non purus fringilla, dapibus dui et, hendrerit sapien. Pellentesque vulputate tincidunt quam feugiat convallis. Aliquam auctor suscipit ipsum sed sollicitudin. Vivamus molestie dignissim erat ut molestie. Proin sed nulla erat. Nam at viverra risus.
                     <br/>
                     <br/>
                     Donec quis pulvinar mi. Integer mauris neque, commodo vitae nunc venenatis, sodales convallis erat. Donec pharetra lacinia neque in commodo. Fusce consectetur risus a dolor tempus consequat. Suspendisse eu ex sed neque viverra mattis. Vestibulum fringilla facilisis nisi at lobortis. Sed porttitor elit ac ex accumsan condimentum.</p>
