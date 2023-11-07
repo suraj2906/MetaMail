@@ -4,7 +4,7 @@ import IconButton from '@/components/IconButton'
 import InputField from '@/components/InputField'
 import Attachment from '@/components/Attachment'
 import Image from 'next/image'
-import {FaPlus, FaSearch, FaInbox, FaStar, FaExclamationCircle, FaTrash, FaRegClock, FaRegFolder, FaReply, FaReplyAll, FaPaperclip} from 'react-icons/fa'
+import { FaPlus, FaSearch, FaInbox, FaStar, FaExclamationCircle, FaTrash, FaRegClock, FaRegFolder, FaReply, FaReplyAll, FaPaperclip } from 'react-icons/fa'
 import { AiOutlineInfoCircle } from "react-icons/ai";
 
 
@@ -91,12 +91,12 @@ function page() {
                 </div>
                 </div>
 
-            </div>    
-        </div>
-    </div>
-    </main>
-    </>
-  )
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </>
+    )
 }
 
 export default page
